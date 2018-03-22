@@ -1,50 +1,34 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-header {
-  background: lightblue;
+.boven {
+  background: #5C192B;
   overflow: auto;
-}
-main {
-  background: yellow;
-}
-footer {
-  background: lightblue;
-}
-main, section, article, footer {
-  padding: 20px;
-  overflow: auto;
-}
-.container {
+  font-family: Helvetica;
+  color: white;
+  font-size: 12px;
+  padding: 12px;
   width: 1200px;
-  margin: 0 auto;  
+  height: 52px;
 }
 
-.logo {
-  float: left;
-  width: 40%;
-  margin: 20px;
+img.logo {
+  width: 100px;
+  height: 100px;
 }
 
-.hoofdmenu {
-  float: right;
-  width: 500px;
-} 
-
-.hoofdmenu ul li {
-  float: left;
-  list-style: none;
-  margin: 2%;
+.header {
+  background: #1A1919;
+  padding: 12px;
+  width: 1200px;
+  height: 90px;
 }
 
-.voorstellingen {
-  float: left;
-  width: 60%;
+.hoofdnavigatie {
+  font-family: Arial;
+  color: white;
+  font-size: 13px;
+  margin: 25px;
 }
 
-aside {
-  float: left;
-  width: 40%;
+img.oma {
+  width: 1200px;
+  height: 590px;
 }
-
