@@ -16,9 +16,6 @@ img.logo {
 
 .header {
   background: #1A1919;
-  padding: 12px;
-  width: 1200px;
-  height: 90px;
 }
 
 .hoofdnavigatie {
@@ -28,7 +25,61 @@ img.logo {
   margin: 25px;
 }
 
+.slideshow {
+  font-family: Arial;
+}
+
+#iedereen {
+  font-family: Arial Black;
+  font-size: 45pt;
+}
+
+.doneren {
+  font-family: Arial;
+}
+
 img.oma {
   width: 1200px;
   height: 590px;
 }
+
+.voorstellingIedereen {
+  background: #1A1919;
+  font-family: Arial;
+  color: white;
+  width: 1200px;
+}
+
+.voorstellingMary {
+  background: #1A1919;
+  font-family: Arial;
+  color: white;
+  width: 1200px;
+}
+
+
+img.voorstelling_1 {
+  width: 319px;
+  height: 213px;
+}
+
+img.voorstelling_2 {
+  width: 321px;
+  height: 213px;
+}
+
+img.overzicht {
+  width: 233px;
+  height: 303px;
+}
+
+img.acteursimg {
+  width: 120px;
+  height: 120px;
+  border-radius: 150px;
+}
+
+
+
+
+
