@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <title> Log in </title>
+   <link href="imperium.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+  <header>
+  <section class="boven">
+ 		<ul>
+      <li>info@imperiumtheater.nl</li> 
+      <li>+31 6 59 37 48 29</li>
+      <li>
+        <form method="get" id="search">
+          <input type="text" name="search" placeholder="search..">
+          <input type="submit">
+        </form>
+      </li>
+    </ul> 
+ 	</section>
+ 	<section class="header">
+	 	<img src="images/logo.jpg" class="logo">
+	    <nav class="hoofdmenu">
+        <ul>
+          <li><a href="programma.html" class="hoofdnavigatie">PROGRAMMA</a></li>
+          <li><a href="#" class="hoofdnavigatie">OVER ONS</a></li>
+          <li><a href="#" class="hoofdnavigatie">FOTOBOEK</a></li>
+          <li><a href="doneren.html" class="hoofdnavigatie">DONEREN</a></li>
+          <li><a href="#" class="hoofdnavigatie">THEATER VERHUUR</a></li>
+          <li><a href="#" class="hoofdnavigatie">LID WORDEN</a></li>
+          <li><a href="mijnacount.html" class="hoofdnavigatie">MIJN ACOUNT</a></li>
+        </ul>
+      </nav>
+	</section>
+  </header>
+  <form action="#" method="get">
+    <fieldset>
+      <label for="gebruikersnaam">Gebruikersnaam:</label>
+      <input type="text" name="gebruikernaam" id="gebruikernaam" required="required"/>
+      <br />
+      <label for="ww">Wachtwoord:</label>
+      <input type="text" name="ww" id="ww" required="required"/>
+      <br />
+    </fieldset>
+  </form>
+  <a href="geenacount.html" class="geenacount">Nog geen acount?</a>
+  <a href="#" class="wwvergeten">Wachtwoord vergeten</a>
+  <input type="submit" value="LOG IN>" onclick="window.location='mijnacount.html';">
+</body>
+<footer>
+  <nav> 
+   	<a href="#">Contact</a> 
+  	<a href="#">Nieuwsbrief</a> 
+  	<a href="doneren.html">Doneren</a> 
+  </nav>
+</footer>
+</div>
+</html>    

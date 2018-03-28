@@ -6,29 +6,41 @@
    <link href="imperium.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
+  <div class="container">
   <header>
-  	<section class="boven">
- 		<p> info@imperiumtheater.nl </p>
- 		<p> +31 6 59 37 48 29 </p>
- 		<input type="text" name="search" placeholder="search.."> 
+  <section class="boven">
+ 		<ul>
+      <li>info@imperiumtheater.nl</li> 
+      <li>+31 6 59 37 48 29</li>
+      <li>
+        <form method="get" id="search">
+          <input type="text" name="search" placeholder="search..">
+          <input type="submit">
+        </form>
+      </li>
+    </ul> 
  	</section>
  	<section class="header">
 	 	<img src="images/logo.jpg" class="logo">
 	    <nav class="hoofdmenu">
-	  		<a href="programma.html" class="hoofdnavigatie">PROGRAMMA</a>
-	  		<a href="#" class="hoofdnavigatie">OVER ONS</a>
-	  		<a href="#" class="hoofdnavigatie">FOTOBOEK</a>
-	  		<a href="#" class="hoofdnavigatie">DONEREN</a>
-	  		<a href="#" class="hoofdnavigatie">THEATER VERHUUR</a>
-	  		<a href="#" class="hoofdnavigatie">LID WORDEN</a>
-	    </nav>
+        <ul>
+          <li><a href="programma.html" class="hoofdnavigatie">PROGRAMMA</a></li>
+          <li><a href="#" class="hoofdnavigatie">OVER ONS</a></li>
+          <li><a href="#" class="hoofdnavigatie">FOTOBOEK</a></li>
+          <li><a href="doneren.html" class="hoofdnavigatie">DONEREN</a></li>
+          <li><a href="#" class="hoofdnavigatie">THEATER VERHUUR</a></li>
+          <li><a href="#" class="hoofdnavigatie">LID WORDEN</a></li>
+          <li><a href="login.html" class="hoofdnavigatie">LOG IN</a></li>
+        </ul>
+      </nav>
 	</section>
   </header>
   <section class="slideshow">
     	<img src="images/foto_1.jpg" class="foto_1">
     	<h1 id="iedereen"> OVER IEDEREEN DIE ER NIET IS</h1>
-    	<p>BESTEL METEEN UW TICKETS</p>
-    	<button type="button">BESTELLEN</button>
+    	<h2>BESTEL METEEN UW TICKETS</h2>
+      <input type="submit">
+    	<input type="submit" value="BESTELLEN" onclick="window.location='overzichtvoorstelling.html';">
   </section>
   <section class="doneren">
     <h1> WORD DONATEUR </h1>
@@ -36,40 +48,41 @@
     	<h2> 01. </h2>
     	<h3> GRATIS BLAD </h3>
     	<p> 4x per jaar een gratis blad </p>
-    	<button type="button">meer info></button>
+    	<input type="submit" value="Meer info>" onclick="window.location='programma.html';">
     </div>
     <div id="pakket2">
     	<h2> 02. </h2>
     	<h3> KORTING </h3>
     	<p> 4x per jaar een gratis blad </p>
-      <button type="button">meer info></button>
+      <input type="submit" value="Meer info>" onclick="window.location='programma.html';">
     </div>
     <div id="pakket3">
     	<h2> 03. </h2>
     	<h3> VRIJKAART </h3>
     	<p> 4x per jaar een gratis blad </p>
-    	<button type="button">meer info></button>
+    	<input type="submit" value="Meer info>" onclick="window.location='programma.html';">
    	</div>
    	<div id="pakket4">
     	<h2> 04. </h2>
     	<h3> 2 VRIJKAARTEN </h3>
     	<p> 4x per jaar een gratis blad </p>
-    	<button type="button">meer info></button>
+    	<input type="submit" value="Meer info>" onclick="window.location='programma.html';">
     </div>
     </section>
-    <section class="nieuwsbrief">
-    	<form method="GET" id="nieuwsbrief">    	
-    		SCHRIJF JE IN VOOR DE <strong>NIEUWSBRIEF</strong> EN MIS NIKS:
-   			<input type="mail" name="email">
-   			<button type="button">MELD AAN></button>
-    	</form>
-    </section>
+    <fieldset>
+      <form action="#" method="get" id="nieuwsbrief">
+        <label for="nieuwsbrief">SCHRIJF JE IN VOOR DE <strong>NIEUWSBRIEF</strong> EN MIS NIKS:</label>
+        <input type="text" name="nieuwsbrief" id="nieuwsbrief" placeholder="Email" required="required"/>
+        <input type="submit" value="MELD AAN>">
+      </form>
+    </fieldset>
 </body>
 <footer>
   <nav> 
    	<a href="#">Contact</a> 
   	<a href="#">Nieuwsbrief</a> 
-  	<a href="#">Doneren</a> 
+  	<a href="doneren.html">Doneren</a> 
   </nav>
 </footer>
+</div>
 </html>    

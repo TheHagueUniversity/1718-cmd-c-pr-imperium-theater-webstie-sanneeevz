@@ -1,3 +1,22 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*navigatie*/
+nav {
+  float: left;
+  width: 1100px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+  width: 16.6%;
+}
 .boven {
   background: #5C192B;
   overflow: auto;
@@ -5,17 +24,27 @@
   color: white;
   font-size: 12px;
   padding: 12px;
-  width: 1200px;
   height: 52px;
+}
+
+.boven ul {
+  padding: 0;
+  list-style: none;
+}
+
+.boven ul li {
+  float: left;
 }
 
 img.logo {
   width: 100px;
   height: 100px;
+  float: left;
 }
 
 .header {
   background: #1A1919;
+  overflow: auto;
 }
 
 .hoofdnavigatie {
@@ -38,9 +67,11 @@ img.logo {
   font-family: Arial;
 }
 
-img.oma {
-  width: 1200px;
-  height: 590px;
+.foto_1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .voorstellingIedereen {
