@@ -1,3 +1,8 @@
+<!-- REVIEW
+Noem je homepagina altijd index.html
+
+Vergeet je geen comments te gebruiken?
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,10 +14,11 @@
   	<section class="boven">
  		<p> info@imperiumtheater.nl </p>
  		<p> +31 6 59 37 48 29 </p>
- 		<input type="text" name="search" placeholder="search.."> 
+ 		<input type="text" name="search" placeholder="search..">
  	</section>
  	<section class="header">
 	 	<img src="logo.jpg" class="logo">
+    <!-- REVIEW: Vergeet je het logo niet clickable te maken (escape hatch) -->
 	    <nav class="hoofdmenu">
 	  		<a href="#" class="hoofdnavigatie">PROGRAMMA</a>
 	  		<a href="#" class="hoofdnavigatie">OVER ONS</a>
@@ -20,6 +26,7 @@
 	  		<a href="#" class="hoofdnavigatie">DONEREN</a>
 	  		<a href="#" class="hoofdnavigatie">THEATER VERHUUR</a>
 	  		<a href="#" class="hoofdnavigatie">LID WORDEN</a>
+        <!-- REVIEW: Hoofdletters is styling, en zou je met CSS moeten doen. Dit geldt ook voor onderstaande gevallen -->
 	    </nav>
 	</section>
   </header>
@@ -58,7 +65,7 @@
     	</div>
     </section>
     <section class="nieuwsbrief">
-    	<form method="GET" id="nieuwsbrief">    	
+    	<form method="GET" id="nieuwsbrief">
     		SCHRIJF JE IN VOOR DE <strong>NIEUWSBRIEF</strong> EN MIS NIKS:
    			<input type="mail" name="email">
    			<button type="button">MELD AAN></button>
@@ -66,10 +73,10 @@
     </section>
   </body>
   <footer>
-   <nav> 
-   	<a href="#">Contact</a> 
-  	<a href="#">Nieuwsbrief</a> 
-  	<a href="#">Doneren</a> 
+   <nav>
+   	<a href="#">Contact</a>
+  	<a href="#">Nieuwsbrief</a>
+  	<a href="#">Doneren</a>
    </nav>
   </footer>
-</html>    
+</html>
