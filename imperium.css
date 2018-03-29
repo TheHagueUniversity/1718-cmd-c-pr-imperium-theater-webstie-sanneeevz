@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -17,6 +18,9 @@ nav ul li {
   float: left;
   width: 16.6%;
 }
+=======
+/* REVIEW: Gebruik comments om je css te ordenen, bijvoorbeeld typografie, navigatie, etc. */
+>>>>>>> 7fb8f6bc0433cf4a1235325419a5a270ff044094
 .boven {
   background: #5C192B;
   overflow: auto;
@@ -86,6 +90,7 @@ img.logo {
   font-family: Arial;
   color: white;
   width: 1200px;
+<<<<<<< HEAD
 }
 
 
@@ -114,3 +119,7 @@ img.acteursimg {
 
 
 
+=======
+  height: 590px;
+}
+>>>>>>> 7fb8f6bc0433cf4a1235325419a5a270ff044094
