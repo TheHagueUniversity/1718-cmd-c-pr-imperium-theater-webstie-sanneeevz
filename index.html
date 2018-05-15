@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <title> Imperium Theater </title>
+   <link href="imperium.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+  <header>
+  <!-- BOVENSTE BALK VAN DE PAGINA -->
+  <section class="boven">
+ 		<ul>
+      <li>info@imperiumtheater.nl</li> 
+      <li>+31 6 59 37 48 29</li>
+      <li>
+        <form method="get" id="search">
+          <input type="text" name="search" placeholder="search..">
+          <input type="image" src="search.jpg" alt="Submit" width="48" height="48">
+        </form>
+      </li>
+    </ul> 
+ 	</section>
+  <!-- HOOFDNAVIGATIE -->
+ 	<section class="header">
+    <a href="index.html">
+	 	<img src="images/logo.jpg" class="logo">
+    </a>
+	    <nav class="hoofdmenu">
+        <ul>
+          <li><a href="programma.html" class="hoofdnavigatie">programma</a></li>
+          <li><a href="#" class="hoofdnavigatie">over ons</a></li>
+          <li><a href="#" class="hoofdnavigatie">fotoboek</a></li>
+          <li><a href="doneren.html" class="hoofdnavigatie">doneren</a></li>
+          <li><a href="#" class="hoofdnavigatie">theater verhuur</a></li>
+          <li><a href="#" class="hoofdnavigatie">lid worden</a></li>
+          <li><a href="login.html" class="hoofdnavigatie">log in</a></li>
+        </ul>
+      </nav>
+	</section>
+  </header>
+  <!-- FOTO MET TEKST -->
+  <section class="slideshow">
+    	<h1 id="iedereen"> Over iedereen die er niet is</h1>
+    	<h2 id="tickets">Bestel meteen uw tickets</h2>
+    	<input id="bestellen" type="submit" value="bestellen" onclick="window.location='overzichtvoorstelling.html';">
+  </section>
+  <!-- BLOK VOOR DONATIES -->
+  <section class="doneren">
+    <h1 id="donateur"> Word donateur </h1>
+    <div id="pakket1">
+    	<h2> 01. </h2>
+    	<h3> Gratis blad </h3>
+    	<p> 4x per jaar een gratis blad </p>
+    	<input type="submit" value="Meer info>" onclick="window.location='programma.html';">
+    </div>
+    <div id="pakket2">
+    	<h2> 02. </h2>
+    	<h3> Korting </h3>
+    	<p> 4x per jaar een gratis blad </p>
+      <input type="submit" value="Meer info>" onclick="window.location='programma.html';">
+    </div>
+    <div id="pakket3">
+    	<h2> 03. </h2>
+    	<h3> Vrijkaart </h3>
+    	<p> 4x per jaar een gratis blad </p>
+    	<input type="submit" value="Meer info>" onclick="window.location='programma.html';">
+   	</div>
+   	<div id="pakket4">
+    	<h2> 04. </h2>
+    	<h3> 2 Vrijkaarten </h3>
+    	<p> 4x per jaar een gratis blad </p>
+    	<input type="submit" value="Meer info>" onclick="window.location='programma.html';">
+    </div>
+  </section>
+    <!-- INSCHRIJVEN NIEUWSBRIEF -->
+  <fieldset class="nieuwsbrief">
+    <form action="#" method="get" id="nieuwsbrief">
+      <label for="nieuwsbrief">schrijf je in voor de <strong>nieuwsbrief</strong> en mis niks:</label>
+      <input type="text" name="nieuwsbrief" placeholder="Email" required="required"/>
+      <input type="submit" value="meld aan>">
+    </form>
+  </fieldset>
+</body>
+<!-- FOOTER -->
+<footer>
+  <nav> 
+   	<a href="#">contact</a> 
+  	<a href="#">nieuwsbrief</a> 
+  	<a href="doneren.html">doneren</a> 
+  </nav>
+</footer>
+</div>
+</html>    
+    

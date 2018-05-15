@@ -1,34 +1,17 @@
-<<<<<<< HEAD
 .container {
   width: 1200px;
   margin: 0 auto;
-}
-/*navigatie*/
-nav {
-  float: left;
-  width: 1100px;
+  background: #1A1919;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  float: left;
-  width: 16.6%;
-}
-=======
-/* REVIEW: Gebruik comments om je css te ordenen, bijvoorbeeld typografie, navigatie, etc. */
->>>>>>> 7fb8f6bc0433cf4a1235325419a5a270ff044094
+/* BOVEN */
 .boven {
   background: #5C192B;
   overflow: auto;
   font-family: Helvetica;
   color: white;
   font-size: 12px;
-  padding: 12px;
-  height: 52px;
+  padding: 10px;
 }
 
 .boven ul {
@@ -46,6 +29,27 @@ img.logo {
   float: left;
 }
 
+#search {
+  align-items: left;
+}
+
+/*NAVIGATIE*/
+nav {
+  float: left;
+  width: 1100px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+  width: 16.6%;
+}
+
 .header {
   background: #1A1919;
   overflow: auto;
@@ -58,24 +62,99 @@ img.logo {
   margin: 25px;
 }
 
+/* INDEX.HTML */
+
+/* slideshow heeft afbeelding en tekst */
 .slideshow {
-  font-family: Arial;
+  height: 591px;
+  background: url("images/foto_1.jpg") bottom center no-repeat;
+  background-size: cover;
 }
 
+/* over iedereen die er niet is */
 #iedereen {
   font-family: Arial Black;
-  font-size: 45pt;
+  font-size: 37pt; 
+  text-align: center;
+  color: white;
+  margin: 0px;
+  padding: 130px 0 0;
+  text-transform: uppercase;
 }
+
+/* bestel meteen uw tickets */
+#tickets {
+  font-family: Apple Symbols;
+  font-size: 25pt;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin: 0px;
+}
+
+/* bestel button */
+input#bestellen {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 10pt;
+  text-transform: uppercase;
+  color: white;
+  background-color: #CC1B44;
+  text-align: center;
+  padding: 13px;
+  width: 140px;
+  margin: 14px auto 0;
+  display: inherit;
+  border: 0px;
+  border-radius: 5px;
+}
+
+/* DONATIE PAKKETEN */
 
 .doneren {
-  font-family: Arial;
+  margin: 30px;
+  padding: 10px;
+  background-color: #7A2334;
+  border: 1px solid black;
+  opacity: 0.6;
 }
 
-.foto_1{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+.doneren p {
+  font-family: Arial;
+  margin: 5%;
+  color: white;
+  }
+
+.doneren h2 {
+  font-family: Arial;
+  margin: 5%;
+  color: white;
+  }
+
+#donateur {
+  text-align: center;
+}
+
+#pakket1 {
+  float: left;
+}
+
+#pakket2 {
+  float: left;
+}
+
+#pakket3 {
+  float: left;
+}
+
+#pakket4 {
+  float: none;
+}
+
+/* waarom werkt dit niet :(  */
+
+.nieuwsbrief {
+  clear: both;
 }
 
 .voorstellingIedereen {
@@ -90,9 +169,9 @@ img.logo {
   font-family: Arial;
   color: white;
   width: 1200px;
-<<<<<<< HEAD
 }
 
+/* PROGRAMMA.HTML */
 
 img.voorstelling_1 {
   width: 319px;
@@ -104,6 +183,8 @@ img.voorstelling_2 {
   height: 213px;
 }
 
+/* OVERZICHTVOORSTELLING.HTML */
+
 img.overzicht {
   width: 233px;
   height: 303px;
@@ -114,12 +195,3 @@ img.acteursimg {
   height: 120px;
   border-radius: 150px;
 }
-
-
-
-
-
-=======
-  height: 590px;
-}
->>>>>>> 7fb8f6bc0433cf4a1235325419a5a270ff044094
